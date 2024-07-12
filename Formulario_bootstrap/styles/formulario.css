@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F4F6 !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* MODO LIGHT */
+body.modoLight {
+    background-color: #F3F4F6;
+}
+
+form.modoLight {
+    background-color: #ffffff;
+}
+
+h1.modoLight {
+    color: #0F172A;
+}
+
+input.modoLight {
+    background-color: #ffffff;
+}
+
+label.modoLight {
+    color: #0F172A;
+}
+
+/* button.modoLight {
+    background-color: #85C88A;
+} */
+
+/* MODO DARK */
+body.modoDark {
+    background-color: #212529 !important;
+}
+
+h1.modoDark {
+    color: #ffffff !important;
+}
+
+
+form.modoDark {
+    background-color: #048ABF !important;
+}
+
+input.modoDark {
+    background-color: #F3F4F6;
+    outline: none;
+}
+
+label.modoDark {
+    color: #ffffff ;
+}
+
+button.modoDark {
+    background-color: #0F172A;
+}
+
+button.modoDark:hover {
+    background-color: #0e182e;
+}
+
+/* GENERAL */
+.max-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.outline-color {
+    outline-color: #198754;
+}
+
+/* ALERTA */
+.alerta {
+    background-color: #ff8282;
+    color: #0F172A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
