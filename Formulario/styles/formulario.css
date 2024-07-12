@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F3F4F6;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MODO LIGHT */
+body.modoLight{
+    background-color: #F3F4F6;
+}
+
+form.modoLight{
+    background-color: #ffffff;
+}
+
+h1.modoLight{
+    color: #0F172A;
+}
+
+input.modoLight{
+    background-color: #ffffff;
+}
+
+label.modoLight{
+    color: #0F172A;
+}
+
+button.modoLight{
+    background-color: #85C88A !important;
+}
+
+
+/* MODO DARK */
+body.modoDark{
+    background-color: #0F172A;
+}
+
+form.modoDark{
+    background-color: #048ABF;
+}
+
+h1.modoDark{
+    color: #ffffff;
+}
+
+input.modoDark{
+    background-color: #F3F4F6;
+    outline: none;
+}
+
+label.modoDark{
+    color: #ffffff !important;
+}
+
+button.modoDark{
+    background-color: #0F172A !important;
+}
+
+
+/* GENERAL */
+.container{
+    padding: 30px 20px;
+}
+
+.container-icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.box-icon-light, .box-icon-night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.box-icon-light p , .box-icon-night p{
+    margin: 0;
+    color: #0F172A;
+    font-weight: 500;
+}
+
+.box-icon-light i , .box-icon-night i{
+    color: #0F172A;
+    font-size: 18px;
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #0F172A;
+    font-size: 28px;
+}
+
+.form{
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.box-input label{
+    margin-bottom: 5px;
+    color: #0F172A;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.box-input input{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    outline-color: #85C88A;
+}
+
+.box-btn{
+    width: 100%;
+}
+
+.box-btn button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #85C88A;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* ALERTA */
+
+.alerta{
+    background-color: #ff8282;
+    color: #0F172A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
